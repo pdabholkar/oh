@@ -140,9 +140,9 @@ TBD
 * Avoid redundant resets
 * Avoid heavily nested if, else statements
 * Don't use defparams, place #(.DW(DW)) in module instantation
-* With parameters, NEVER us this instantiation: "mux3 #(32) U2 (...)"
-* Always use connection by name (not by order) in module instantiatoin
-* Parametrize as much as possible but not more
+* With parameters, NEVER use this instantiation: "mux3 #(32) U2 (...)"
+* Always use connection by name (not by order) in module instantiation
+* Parameterize as much as possible but not more
 * Place a useful comment every 5-20 lines
 * If you are going to use async reset, use oh_rsync.v
 * Use for loops to reduce bloat and to improve readability
